@@ -1,0 +1,28 @@
+body{ height: 100vh;
+    background: linear-gradient(rgb(106, 122, 13), lightblue, rgb(42, 40, 42));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{ width: 250px;
+    height: 350 px;
+    background: rgb(129, 125, 125);
+    border-radius: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.central button{ width: 80 px;
+    border: none;
+    outline: none;
+    background: purple;
+    color: white;
+    width: 25 px;
+    cursor: pointer;
+
+
+}
